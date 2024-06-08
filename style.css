@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+
+    border: 1px solid black;
+    width: 330px;
+    height: 450px;
+    background-color: rgba(19, 18, 18, 0.94);
+    box-shadow: 0 2px 30px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+
+.container p {
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container form i{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.container form i:hover{
+     opacity: 0.8;
+}
+
+.input {
+    width: 262px;
+    height: 76px;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: right;
+}
+
+.hr {
+    opacity: 0.3;
+    color: white;
+    width: 270px;
+    height: 0.5px;
+    background-color: white;
+    margin: auto;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 3px;
+}
+
+.row1 button {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    color: darkturquoise;
+    cursor: pointer;
+    background-color: rgb(57, 56, 56);
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.row1 button:hover {
+    transform: scale(1.2);
+    background-color: white;
+    font-size: 35px;
+}
+
+#isequalto:last-child {
+    background-color: rgb(37, 220, 37);
+    width: 140px;
+    color: white;
+    border-radius: 30px;
+    font-size: 35px;
+}
+
+#isequalto:last-child:hover {
+    background-color: white;
+    color: rgb(37, 220, 37);
+    font-size: 35px;
+}
+
+#div,
+#bracket,
+#mode,
+#mul,
+#sub,
+#plus {
+    color: rgb(37, 220, 37);
+}
+
+#C {
+    color: red;
+}
+
+#mul {
+    font-size: 30px;
+}
